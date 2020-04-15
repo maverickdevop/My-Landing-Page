@@ -1,0 +1,82 @@
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+.about__h1 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 20px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+.main__hobby{
+    background: #000;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #fff;
+}
+
+.main__hobby h1{
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+
+.photo{
+    background: #d7d7d7;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 10px solid #fafafa;
+    -webkit-box-shadow: 3px 3px 6px 4px #888;
+    -moz-box-shadow: 3px 3px 6px 4px #888;
+    box-shadow: 3px 3px 6px 4px #888;
+}
+.hobby__cards{
+    display: flex;
+}
+.name{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.position{
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: red;
+    font-style: italic;
+}
+.about__position{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.card{
+    margin: 0 40px;
+}
+
+
+@media (max-width: 1000px) {
+.hobby__cards{
+    flex-direction:column;
+    }
+.about__h1 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 40px;
+    }
+}
+@media (max-width: 760px) {
+    .about__h1 {
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 20px;
+    }
+}

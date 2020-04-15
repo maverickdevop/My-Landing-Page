@@ -1,0 +1,20 @@
+.footer__wrap {
+    display: grid;
+    grid-template-columns: 1fr 130px;
+    grid-column-gap: 10px;
+}
+
+@media (max-width: 760px) {
+    .footer__wrap {
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+}
+@media (max-width: 280px) {
+    .menu__item {
+        font-size: 5px;
+    }
+    .menu__item:hover {
+    font-size: 6px;
+    }
+}

@@ -1,0 +1,42 @@
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials__png {
+    fill: #000;
+    transition-duration: 500ms;
+    transition-property: fill;
+}
+
+.socials__png:hover {
+    fill: #f84545;
+}
+
+.socials__png--gh {
+    width: 50px;
+    height: 50px;
+}
+
+.socials__png--gh:hover {
+    width: 60px;
+    height: 60px;
+}
+
+.social__png--tg {
+    width: 50px;
+    height: 50px;
+}
+
+.social__png--tg:hover {
+    width: 60px;
+    height: 60px;
+}
+
+@media (max-width: 760px) {
+    .social__items {
+        margin: 15px;
+    }
+}
